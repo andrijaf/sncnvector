@@ -1,0 +1,24 @@
+/* Vector screen styles for high definition displays */
+
+div#content {
+	margin-left: 10.05em;
+	padding: 1.25em 1.5em 1.5em 1.5em;
+}
+#p-logo {
+}
+div#footer {
+	margin-left: 10.05em;
+	padding: 1.25em;
+}
+#p-search {
+	margin-right: 24px;
+}
+#left-navigation {
+	left: 10.05em;
+}
+#p-personal {
+	right: 18px;
+}
+#mw-head-base {
+	margin-left: 10.05em;
+}
