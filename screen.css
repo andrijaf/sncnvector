@@ -981,7 +981,7 @@ div#recentpages ul {
 	margin-bottom: 20px;
 }
 
-h1.home {
+#home h1, h1.home {
 	width: 99%;
 	background: #333;
 	color: #FFF;
