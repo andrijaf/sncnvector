@@ -981,7 +981,7 @@ div#recentpages ul {
 	margin-bottom: 20px;
 }
 
-#home h1, h1.home {
+#home h1 {
 	width: 99%;
 	background: #333;
 	color: #FFF;
@@ -991,7 +991,7 @@ div#recentpages ul {
 	line-height: 1.5em
 }
 
-h2.home {
+#home h2 {
 	width: 99%;
 	background: none;
 	color: #333;
@@ -1004,7 +1004,7 @@ h2.home {
 
 /* Make edit link visible on dark background */
 
-h1.home .editsection a{
+#home h1 .editsection a{
 	color: white;
 	font-size: 13px;
 }
