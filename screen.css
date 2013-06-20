@@ -1013,11 +1013,7 @@ div#recentpages ul {
 	font-size: 13px;
 }
 
-#one {
-}
-
-#two {
-}
-
-#three {
+/*hide automaically printed footer*/
+.printfooter {
+	display: none;
 }
