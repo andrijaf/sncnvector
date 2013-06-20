@@ -971,11 +971,11 @@ div#recentpages ul {
 .mw-code pre {
 	border: none !important;
 }
-
-/* HOME PAGE */
+HOME
+/*  PAGE */
 
 /* CSS */
-.column-wrapper {
+#home table {
 	width: 99%;
 	border: 1px solid #D6D6D6;
 	margin-bottom: 20px;
@@ -1009,7 +1009,7 @@ div#recentpages ul {
 	font-size: 13px;
 }
 
-.column-wrapper td {
+#home table td {
 	padding: .4em 1% 1%;
 	vertical-align: top;
 }
