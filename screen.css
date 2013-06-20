@@ -981,6 +981,11 @@ HOME
 	margin-bottom: 20px;
 }
 
+#home table td {
+	padding: .4em 1% 1%;
+	vertical-align: top;
+}
+
 #home h1 {
 	width: 99%;
 	background: #333;
@@ -1003,15 +1008,9 @@ HOME
 
 
 /* Make edit link visible on dark background */
-
 #home h1 .editsection a{
 	color: white;
 	font-size: 13px;
-}
-
-#home table td {
-	padding: .4em 1% 1%;
-	vertical-align: top;
 }
 
 #one {
