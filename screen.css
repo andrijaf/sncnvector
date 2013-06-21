@@ -970,6 +970,8 @@ div#recentpages ul {
 /* remooves second dashed border */
 .mw-code pre {
 	border: none !important;
+	display: inline-block;
+	min-width: 350px;
 }
 
 /*  PAGE */
