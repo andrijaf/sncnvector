@@ -42,6 +42,7 @@ h2,  h3 {
 
 h2 {
 	font-size: 180%;
+	width: 100%;
 	box-shadow: 0 1px 0px #A7A7A7, 0 2px #F8F8F8;
 }
 
