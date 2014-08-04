@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 	 background-position: left bottom;*/
 }
 
-h2,  h3 {
+h2, h3 {
 	color: #222;
 	margin: .5em 0 .1em;
 	line-height: 1.4em;
@@ -46,12 +46,10 @@ h2 {
 	box-shadow: 0 1px 0px #A7A7A7, 0 2px #F8F8F8;
 }
 
-h3{
+h3 {
 	margin: .3em 0 .1em;
 	font-weight: bold;
 }
-
-
 
 /* Content */
 div#content {
@@ -968,11 +966,9 @@ div#recentpages ul {
 }
 
 /* SYNTAX HIGHLIGHTER TUNING */
-/* remooves second dashed border */
+/* removes second dashed border */
 .mw-code pre {
 	border: none !important;
-	display: inline-block;
-	min-width: 350px;
 }
 
 /*  PAGE */
@@ -1009,9 +1005,8 @@ div#recentpages ul {
 	text-shadow: none
 }
 
-
 /* Make edit link visible on dark background */
-#home h1 .editsection a{
+#home h1 .editsection a {
 	color: white;
 	font-size: 13px;
 }
@@ -1019,4 +1014,34 @@ div#recentpages ul {
 /*hide automaically printed footer*/
 .printfooter {
 	display: none;
+}
+
+/* TABLES */
+
+table.wikitable tr td, table.wikitable caption {
+	padding: .3em .7em;
+}
+
+table.wikitable tr:nth-child(odd) {
+	background-color: white;
+}
+
+table.wikitable caption {
+	background-color: #333;
+	color: #FFF;
+}
+
+/* BUTTONS */
+
+.download-button, .download-button a:visited{
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+	padding: 7px 12px;
+	background: #16B94C;
+	display: inline-block;
+	margin-bottom: 10px;
+	color: #FFF;
+	border-radius: 5px;
+	border: 1px solid #00A035;
 }
