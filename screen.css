@@ -1017,8 +1017,7 @@ div#recentpages ul {
 }
 
 /* TABLES */
-
-table.wikitable tr td, table.wikitable caption {
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td, table.wikitable caption {
 	padding: .3em .7em;
 }
 
